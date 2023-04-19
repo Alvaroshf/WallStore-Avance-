@@ -1,0 +1,70 @@
+    @charset "UTF-8";
+
+    /* Estilos para el encabezado */
+    header {
+
+        font-size: 90%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 220%;
+        height: 80px;
+        text-align: center;
+        
+        top: 0;
+        left: 0;
+        background-color:#15586eff;
+        color: #050905;
+        z-index: -9999;
+        padding: 10px;
+    }
+    body {
+        
+        top: 80px; /* Ajusta esta medida según la altura de tu encabezado */
+        left: 0;
+        width: 100%;
+        background-color: #090d26;
+        color: #fff;
+        text-align: center;
+    }
+
+    /* Estilos para el contenido principal */
+    main {
+        
+        top: 80px; /* Ajusta esta medida según la altura de tu encabezado */
+        left: 0;
+        width: 100%;
+        background-color: #766666;
+        color: #fff;
+        text-align: center;
+    }
+
+    /* Estilos para los enlaces */
+    a {
+    color: #070700;
+    text-decoration: none;
+    width: 40%; 
+    }
+
+    /* Estilos para las imágenes */
+    img {
+    max-width: 100%;
+    }
+
+    nav {
+        
+        top: 80px; /* Ajusta esta medida según la altura de tu encabezado */
+        left: 0;
+        width: 5080%;
+        background-color: #15586eff;
+        color: #090808;
+        text-align: left;
+    }
+
+    footer {
+        
+        top: 80px; /* Ajusta esta medida según la altura de tu encabezado */
+        left: 0;
+        width: 100%;
+        background-color: #766666;
+        color: #fff;
+        text-align: center;
+    }
